@@ -1,6 +1,6 @@
-package es.neesis.annotations.applications;
+package es.neesis.calculator.applications;
 
-import es.neesis.annotations.console.ConsoleMenu;
+import es.neesis.calculator.console.ConsoleMenu;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

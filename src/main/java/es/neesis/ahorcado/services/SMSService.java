@@ -1,4 +1,4 @@
-package es.neesis.id.services;
+package es.neesis.ahorcado.services;
 
 public class SMSService implements IMessageService{
 

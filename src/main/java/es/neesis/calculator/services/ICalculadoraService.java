@@ -1,4 +1,4 @@
-package es.neesis.annotations.services;
+package es.neesis.calculator.services;
 
 public interface ICalculadoraService {
     int realizarSuma(int operando1, int operando2);
