@@ -4,15 +4,12 @@ import es.neesis.ahorcado.game.AhorcadoGame;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AhorcadoService {
+public class AhorcadoService implements IAhorcadoService{
 
     private AhorcadoGame ahorcadoGame;
 
     public AhorcadoService() {
         this.ahorcadoGame = new AhorcadoGame();
-    }
-
-    public void iniciarJuego() {
     }
 
     public void adivinarLetra(char letra) {
