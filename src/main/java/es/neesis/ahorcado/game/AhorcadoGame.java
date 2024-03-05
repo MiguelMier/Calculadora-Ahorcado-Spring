@@ -1,5 +1,8 @@
 package es.neesis.ahorcado.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class AhorcadoGame {
 
     private final String PALABRAS[] = {"JAVA", "SPRING", "ORDENADOR", "TECLADO", "CONTROLLER", "BABELGROUP"};

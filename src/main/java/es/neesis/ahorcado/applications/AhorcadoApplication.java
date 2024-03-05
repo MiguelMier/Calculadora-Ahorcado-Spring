@@ -13,6 +13,6 @@ public class AhorcadoApplication {
     }
 
     public void iniciarJuego(){
-        controller.iniciarJuego();
+        controller.iniciar();
     }
 }
