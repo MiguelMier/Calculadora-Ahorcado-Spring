@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class AhorcadoGame {
 
-    private final String PALABRAS[] = {"JAVA", "SPRING", "ORDENADOR", "TECLADO", "CONTROLLER", "BABELGROUP"};
+    private final String palabras[] = {"JAVA", "SPRING", "ORDENADOR", "TECLADO", "CONTROLLER", "BABELGROUP"};
 
     private String palabraDescubrir;
     private StringBuilder palabraDescubierta;
@@ -49,8 +49,8 @@ public class AhorcadoGame {
     }
 
     private String seleccionarPalabraAleatoria() {
-        int indice = (int) (Math.random() * PALABRAS.length);
-        return PALABRAS[indice];
+        int indice = (int) (Math.random() * palabras.length);
+        return palabras[indice];
     }
 
     public String getPalabraDescubrir() {
